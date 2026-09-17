@@ -1,0 +1,9 @@
+python-dotenv==1.0.1
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-text-splitters==0.3.2
+groq==1.7.0
+fastembed==0.7.1
+chromadb==0.5.20
+neo4j==5.26.0
+streamlit==1.40.1
