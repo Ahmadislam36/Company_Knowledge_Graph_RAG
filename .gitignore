@@ -1,9 +1,23 @@
+# Environment variables
 .env
 .env.*
 !.env.example
 
-.venv/
+# Python
 __pycache__/
-*.pyc
-
+*.py[cod]
 .pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# ChromaDB generated data
+data/processed/chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Build/cache
+.dist/
